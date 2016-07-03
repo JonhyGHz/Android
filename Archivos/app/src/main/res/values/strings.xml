@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Archivos</string>
+    <string name="action_settings">Settings</string>
+    <string name="escribe">Escribe algo</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_eliminar">Eliminar</string>
+</resources>
