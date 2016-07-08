@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:22'
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.mehuljoisar.lockscreen"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile files('src/main/res/libs/activation.jar')
+    compile files('src/main/res/libs/additionnal.jar')
+    compile files('src/main/res/libs/mail.jar')
+}

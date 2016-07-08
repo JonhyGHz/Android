@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".LockScreenActivity"
+    android:id="@+id/scr">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:hint="@string/instructions"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/uno"
+        android:id="@+id/btn_uno"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:onClick="asignar"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/dos"
+        android:id="@+id/btn_dos"
+        android:layout_alignTop="@+id/btn_uno"
+        android:onClick="asignar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/tres"
+        android:id="@+id/btn_tres"
+        android:layout_alignTop="@+id/btn_dos"
+        android:onClick="asignar"
+        android:layout_alignRight="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/cuatro"
+        android:id="@+id/btn_cuatro"
+        android:layout_below="@+id/btn_uno"
+        android:layout_alignParentLeft="true"
+        android:onClick="asignar"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/cinco"
+        android:id="@+id/btn_cinco"
+        android:layout_alignTop="@+id/btn_cuatro"
+        android:onClick="asignar"
+        android:layout_alignLeft="@+id/btn_dos" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/seis"
+        android:id="@+id/btn_seis"
+        android:layout_alignTop="@+id/btn_cinco"
+        android:onClick="asignar"
+        android:layout_alignLeft="@+id/btn_tres" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/siete"
+        android:id="@+id/btn_siete"
+        android:layout_centerVertical="true"
+        android:onClick="asignar"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/ocho"
+        android:id="@+id/btn_ocho"
+        android:layout_centerVertical="true"
+        android:onClick="asignar"
+        android:layout_alignLeft="@+id/btn_cinco" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/nueve"
+        android:id="@+id/btn_nueve"
+        android:layout_alignTop="@+id/btn_ocho"
+        android:onClick="asignar"
+        android:layout_alignLeft="@+id/btn_seis" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/cero"
+        android:id="@+id/btn_cero"
+        android:layout_below="@+id/btn_siete"
+        android:onClick="asignar"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/unlock"
+        android:id="@+id/btn_entrar"
+        android:layout_below="@+id/btn_nueve"
+        android:layout_alignRight="@+id/editText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="@string/borrar"
+        android:id="@+id/btn_borrar"
+        android:layout_below="@+id/btn_ocho"
+        android:onClick="borrar"
+        android:layout_alignLeft="@+id/btn_ocho" />
+
+</RelativeLayout>

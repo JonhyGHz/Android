@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LockScreenApp</string>
+
+    <string name="instructions">Introduzca PIN</string>
+    <string name="unlock">Unlock</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="cero">0</string>
+    <string name="borrar">Borrar</string>
+
+    <string name="action_settings">Configuracion</string>
+    <string name="texto_escribe_pin">Introduce tu pin</string>
+    <string name="texto_pin">Configuración del pin de seguridad</string>
+    <string name="boton_crear_ping">Crear PIN</string>
+    <string name="texto_contacto_sms">Seleccionar un contacto para enviar SMS</string>
+    <string name="seleccionar">Seleccionar contacto</string>
+</resources>
