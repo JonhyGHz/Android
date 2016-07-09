@@ -424,7 +424,7 @@ public class LockScreenActivity extends Activity implements
 	{
 		try{
 			EmailSender emailSender = new EmailSender();
-			emailSender.execute("jonhyTherz@gmail.com","Jonhy1394Therz*","jonathantherz@outlook.es","LockScreenApp Dice","Se a tratado de desbloquear tu telefono mas de 5 veces. "+ubicacion);
+			emailSender.execute("correo que envia el mensaje","contraseña","jonathantherz@outlook.es","LockScreenApp Dice","Se a tratado de desbloquear tu telefono mas de 5 veces. "+ubicacion);
 
 		}catch(Exception e){
 			Log.e("JZH","Error: "+e.getMessage());
