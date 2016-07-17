@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Almacen</string>
+    <string name="txtInicioSesion">Inicio Sesion</string>
+    <string name="txtPapeleria">PAPELERIA ALDA</string>
+    <string name="txtNombreUser">Nombre Usuario</string>
+    <string name="txtContrasena">Contraseña</string>
+    <string name="txtBtnEntrar">Entrar</string>
+    <string name="tvName">REGISTRO DE PRODUCTOS</string>
+    <string name="tvNombre">Nombre:</string>
+    <string name="tvExistencia">Existencia:</string>
+    <string name="tvPrecioC">Precio Compra:</string>
+    <string name="tvPrecioV">Precio Venta:</string>
+    <string name="tvRfc">RFC Proveedor:</string>
+    <string name="tvIdCompra">ID compra:</string>
+    <string name="tvFecha">Fecha:</string>
+    <string name="strfecha">00/00/0000</string>
+    <string name="txtBtnRegistrar">Registrar</string>
+    <string name="txtBtnVerRegistros">Ver Registros</string>
+    <string name="txtBtnCerrar">Cerrar</string>
+    <string name="tvContenido">Lorem ipsum</string>
+    <string name="txtBtnNuevo">Nuevo</string>
+    <string name="txtBtnEliminar">Eliminar</string>
+    <string name="txtBtnLista">Ver Productos registrados</string>
+    <string name="txtMessage">Desea Eliminar el nuevo registro</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_registros">Registros</string>
+	<string name="texto_menu_acerca_de">Acerca De</string>
+	<string name="texto_acerca_de">Developers: Jonathan Hz</string>
+</resources>

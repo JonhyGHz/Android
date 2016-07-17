@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0174DF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/lbName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvName"
+            android:textStyle="bold" 
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbTitle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvNombre" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" 
+            android:textColor="#000000"
+            android:textColorHint="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbExistencia"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvExistencia" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etExistencia"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" 
+            android:textColor="#000000"
+        	android:textColorHint="#FFFFFF"
+        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbPrecioC"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvPrecioC"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/etPrecioC"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" 
+            android:textColor="#000000"
+        	android:textColorHint="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbPrecioV"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvPrecioV" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etPrecioV"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" 
+            android:textColor="#000000"
+        	android:textColorHint="#FFFFFF"
+        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbRfc"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvRfc"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/etRfc"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="#000000"
+        	android:textColorHint="#FFFFFF" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbIDcompra"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvIdCompra" 
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etIdCompra"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" 
+            android:textColor="#000000"
+        	android:textColorHint="#FFFFFF"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lbFecha"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tvFecha" 
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/etFecha"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strfecha"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5sp">
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="20sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnRegistrar" 
+            android:textColor="#FFFFFF" 
+        	android:background="#013ADF"
+        	android:layout_marginRight="2sp"
+        	android:layout_marginEnd="1sp"
+        	/>
+
+        <Button
+            android:id="@+id/btnRegistros"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnVerRegistros"
+            android:textColor="#FFFFFF" 
+        	android:background="#013ADF" 
+        	android:layout_marginLeft="2sp"
+        	android:layout_marginStart="1sp"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp" >
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnCerrar" 
+            android:textColor="#FFFFFF" 
+        	android:background="#013ADF"/>
+    </LinearLayout>
+    
+</LinearLayout>

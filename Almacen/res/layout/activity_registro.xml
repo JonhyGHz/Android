@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0174DF" >
+    
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvName"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+    
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvContenido" 
+        android:textColor="#FFFFFF"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5sp">
+
+      <Button
+            android:id="@+id/btnNuevo"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnNuevo" 
+            android:textColor="#FFFFFF" 
+        	android:background="#013ADF"
+            android:layout_marginRight="2sp"
+        	android:layout_marginEnd="1sp"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnEliminar" 
+            android:textColor="#FFFFFF" 
+        	android:background="#013ADF"
+            android:layout_marginLeft="2sp"
+        	android:layout_marginStart="1sp"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp" >
+        
+           <Button
+            android:id="@+id/btnLista"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txtBtnLista" 
+            android:textColor="#FFFFFF" 
+        	android:background="#013ADF"/>
+           
+    </LinearLayout> 
+    
+    
+
+</LinearLayout>

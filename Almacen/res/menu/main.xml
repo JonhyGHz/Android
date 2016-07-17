@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mipropuesta.MainActivity" >
+    
+    <item
+        android:id="@+id/menu_acerca_de"
+        android:title="@string/texto_acerca_de"
+        android:visible="true"
+        android:checkable="false"
+        android:enabled="true"
+        />
+    
+
+</menu>
